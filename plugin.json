@@ -1,0 +1,17 @@
+{
+    "id": "networkSpeedWidget",
+    "name": "Network Speed Widget",
+    "description": "Monitor network speed with device and bitrate selection",
+    "version": "1.0.0",
+    "author": "kmf",
+    "icon": "swap_vert",
+    "type": "desktop",
+    "capabilities": ["desktop-widget"],
+    "component": "./NetworkWidget.qml",
+    "settings": "./NetworkSettings.qml",
+    "requires_dms": ">=1.2.0",
+    "permissions": [
+        "settings_read",
+        "settings_write"
+    ]
+}
